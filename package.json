@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "serve:demo": "vue-cli-service serve --project=demo",
+    "serve:demo:zip": "vue-cli-service serve --project=demo --zip=true",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -16,8 +18,11 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "chalk": "^4.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "filemanager-webpack-plugin": "^3.0.0-beta.0",
+    "inquirer": "^7.3.3",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
